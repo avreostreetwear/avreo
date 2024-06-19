@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.products {
+    padding: 1em;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.form-section {
+    padding: 1em;
+    border-top: 1px solid #ddd;
+}
