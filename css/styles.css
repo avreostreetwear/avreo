@@ -26,3 +26,24 @@ header {
     padding: 1em;
     border-top: 1px solid #ddd;
 }
+
+.main-header {
+    position: relative;
+    text-align: center;
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.title {
+    font-family: "Arial", sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.brand-name {
+    font-style: italic;
+}
