@@ -26,24 +26,48 @@ header {
     padding: 1em;
     border-top: 1px solid #ddd;
 }
-
 .main-header {
     position: relative;
     text-align: center;
 }
 
-.header-image {
+.left-image {
     position: absolute;
     top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 100%;
 }
 
 .title {
     font-family: "Arial", sans-serif;
-    font-size: 3em;
-    margin-bottom: 0.5em;
+    font-size: 3em; /* Ajusta el tamaño según tu preferencia */
+    margin-bottom: 0.5em; /* Ajusta el espacio entre la imagen y el título */
 }
 
 .brand-name {
-    font-style: italic;
+    font-style: italic; /* Cambia la font a itálica para el nombre de la marca */
 }
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre productos */
+}
+
+.product .product-info {
+    flex: 1;
+    padding-right: 20px; /* Espacio entre la información del producto y la imagen */
+}
+
+.product .product-image {
+    width: 200px; /* Tamaño de la imagen del producto */
+    height: auto;
+}
+
